@@ -1,7 +1,8 @@
 {
+  "urlRandomness": "ge-pmp",
   "hostType": "lan",
   "lanType": "ip",
   "dev": true,
   "minify": false,
-  "urlRandomness": "tt-ezg"
+  "https": false
 }

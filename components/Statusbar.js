@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
-import { StatusBar, Text, View, TouchableHighlight, StyleSheet } from 'react-native'
-import { Constants } from 'expo'
+import React from "react";
+import { StatusBar, View } from "react-native";
+import Constants from "expo-constants";
+import { appTheme } from "../utils/Helper";
 
 function Statusbar(props) {
-
-    return (
-        <View style={{
-            backgroundColor: props.backgroundColor,
-            height: Constants.statusBarHeight
-        }} >
-            <StatusBar
-                {...props}
-            />
-        </View>
-    );
-
+  const { themeBgColor } = appTheme;
+  return (
+    <View
+      style={{
+        backgroundColor: themeBgColor,
+        height: Constants.statusBarHeight,
+      }}
+    >
+      <StatusBar {...props} />
+    </View>
+  );
 }
 
-export default Statusbar
+export default Statusbar;
