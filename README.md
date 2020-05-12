@@ -11,6 +11,7 @@ Initial display of this app will show list of all the decks (if any already pres
 User can toggle between deck list screen and add deck screen from tab navigator on the bottom of the screen
 
 #### Add Deck Screen
+
 Add screen will let user add a deck by simply submiting new deck title. It will then route to the individual deck screen from where user can add card, start quiz and delete option. If the title is already present in database then it will show card count based on previously added cards else will show zero cards on the screen.
 
 User can even select any particular deck from initial deck list screen, next Screen will be again individaul deck screen from which user can add card, start quiz or delete that deck.
@@ -27,15 +28,15 @@ At the end of every quiz there is a `summary of quiz score` based on correct and
 
 `Delete` button removes complete deck from the database
 
-
 #### Notification as reminder
 
 This app will keep track of user daily quiz attempt after first use of app. If user has not attempted atlease one quiz on any particular day. This app will remind user at 6pm that no quiz has attempted today.
 
 ### Download link directly on any android
+
 Type the following link in your android device browser to download the app
 
-https://expo.io/artifacts/de50ccc3-c5d8-44da-87f2-44ff4b9a0a74
+https://expo.io/artifacts/b0574ba0-3bc8-4625-a397-4c8db8bb3577
 
 Once download you can install it from your downloads
 
@@ -51,7 +52,7 @@ Open Terminal / Command Prompt, then run:
 
 In the project directory, you can run:
 
-#### `npm install`   OR    `yarn install`
+#### `npm install` OR `yarn install`
 
 #### `npm start` OR `yarn start`
 
@@ -61,12 +62,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-#### `npm test`   OR `yarn test`
+#### `npm test` OR `yarn test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### `npm run build`   OR `yarn run build`
+#### `npm run build` OR `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -76,7 +77,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### `npm run eject`  OR `yarn run eject`
+#### `npm run eject` OR `yarn run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
